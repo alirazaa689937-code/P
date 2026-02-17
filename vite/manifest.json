@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Multi-Tab Player",
+    "version": "1.0",
+    "description": "Open N tabs of a YouTube video and attempt to autoplay (tabs are muted to allow autoplay).",
+    "permissions": [
+        "tabs",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*.youtube.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "YouTube Multi-Tab Player"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}

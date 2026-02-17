@@ -1,0 +1,19 @@
+MCQs
+Q.1--B) Rendering on the server to reduce client bundle size
+Q.2--B) object
+Q.3--B) Runs once on mount
+Q.4--A) Pure functions
+Q.5--C) API handling
+Q.6-------
+Q.7--B) localStorage
+Q.8--B) Re-renders due to new function reference
+Q.9--- B).Backend services(Auth, Firestore)
+Q.10-- B) Payments
+
+additional Question
+Ans--
+..key Props
+props is for the passing the properties from parent to the child
+key is used for making the any property have a unique identity
+...Promises:
+   when a function take a time to run then promise show that the function is loading.

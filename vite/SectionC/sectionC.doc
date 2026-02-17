@@ -1,0 +1,22 @@
+Q1 Lifting state up:
+     when we have the two or more components but they have the same working data
+     in react we know data flow from parent to child we keep the state into the parent component
+    then we create the main parent component
+Q2. Debugging
+    Debugging mean finding and fixing the error in the program
+    when we work in the react then 
+    state.count = state.count + 1; instead of this we use the useState function
+    setCount(Count+1);
+    props property-- if we cannot mention props in the parent then we cannot access the props in the Child function.
+ Q3..Redux
+     Redux is the state management library it is used when we handle globel state in the large application 
+     in simple when many component need the same data and app become complex then we use the redux.
+ Q4..React hook
+        React hook is used  for manage the
+        there are many hook
+        useState(is used in the state management)
+        useEffect(work in the side like API)
+        useRef 
+Q5..Virtual DOM
+       virtual dom is used for react faster. it s the lightweight of the real dom. when user click on the button the react create the state and create the new virtual dom then react compare the virtual dom with the real dom 
+       then update the UI.
